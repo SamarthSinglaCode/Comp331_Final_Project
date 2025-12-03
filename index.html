@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Nutrition Analysis</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Food Nutrition Analysis</h1>
+        <p>Enter the food name to check if it is healthy or unhealthy along with its nutritional content.</p>
+        
+        <form id="food-form">
+            <label for="food-name">Food Name:</label>
+            <input type="text" id="food-name" name="food-name" required>
+
+            <button type="submit">Check Health Status</button>
+        </form>
+        
+        <div id="result">
+            <h2>Prediction Result:</h2>
+            <p id="prediction">Waiting for input...</p>
+            <h3>Nutritional Content:</h3>
+            <p id="nutrition"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
